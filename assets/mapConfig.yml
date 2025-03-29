@@ -1,0 +1,62 @@
+#    /$$$$$$  /$$                           /$$           /$$$$$$$$                              /$$
+#   /$$__  $$| $$                          | $$          | $$_____/                             | $$
+#  | $$  \__/| $$  /$$$$$$  /$$   /$$  /$$$$$$$  /$$$$$$$| $$    /$$    /$$ /$$$$$$  /$$$$$$$  /$$$$$$   /$$$$$$$
+#  | $$      | $$ /$$__  $$| $$  | $$ /$$__  $$ /$$_____/| $$$$$|  $$  /$$//$$__  $$| $$__  $$|_  $$_/  /$$_____/
+#  | $$      | $$| $$  \ $$| $$  | $$| $$  | $$|  $$$$$$ | $$__/ \  $$/$$/| $$$$$$$$| $$  \ $$  | $$   |  $$$$$$
+#  | $$    $$| $$| $$  | $$| $$  | $$| $$  | $$ \____  $$| $$     \  $$$/ | $$_____/| $$  | $$  | $$ /$$\____  $$
+#  |  $$$$$$/| $$|  $$$$$$/|  $$$$$$/|  $$$$$$$ /$$$$$$$/| $$$$$$$$\  $/  |  $$$$$$$| $$  | $$  |  $$$$//$$$$$$$/
+#   \______/ |__/ \______/  \______/  \_______/|_______/ |________/ \_/    \_______/|__/  |__/   \___/ |_______/
+
+# CloudsEvents Map Config File
+
+## Generals
+# The location players will spawn when joining the event (X,Y,Z,Yaw,Pitch).
+spawn-location: "0.5,70.0,0.5,0.0,0.0"
+# The 2 vertices of the spawn cage (X,Y,Z).
+spawn-cage-pos1: "-5,60,-5"
+spawn-cage-pos2: "5,65,5"
+# The maximum players to start the event.
+max-players: 16
+# The minimum players that can join the event.
+min-players: 2
+# The time it takes to start the event when the minimum players is reached (In seconds).
+start-time: 15
+# The location players will spawn when the event starts (X,Y,Z,Yaw,Pitch), to disable this (players will not be teleported) type "disabled".
+game-spawn-location: "0.5,60.0,0.5,0.0,0.0"
+# The Y level for player death.
+y-death: 50
+
+## Color Party section
+# The 2 vertices of the game base (X,Y,Z).
+game-base-pos1: "25,60,25"
+game-base-pos2: "-25,60,-25"
+# The blocks used in the game base. Available blocks: wool,terracotta,concrete.
+color-block: "wool"
+# The level from which the pvp will be enabled, to disable it type -1.
+pvp-level: 10
+# The pvp type, if multiple divided by ;;
+# - HAND (fist combat);
+# - SNOWBALL.
+pvp-type: "HAND;;SNOWBALL"
+# The snowball hotbar position (1-9)
+snowball-hotbar: 9
+# Levels section
+levels:
+  # {Level}: {Seconds}
+  1: 5
+  3: 4
+  5: 3
+  10: 2
+
+## Timer Spleef section
+# The blocks in the different levels, use the server version Material API (level: "material") [For legacy versions use Material:Data].
+blocks-level:
+  0: "WOOL:0"
+  1: "WOOL:4"
+  2: "WOOL:1"
+  3: "WOOL:14"
+# The seconds between every level.
+level-time: 5
+
+# Don't change this or the plugin won't work correctly!
+mapconfig-version: 6

@@ -1,0 +1,123 @@
+#    /$$$$$$  /$$                           /$$           /$$$$$$$$                              /$$
+#   /$$__  $$| $$                          | $$          | $$_____/                             | $$
+#  | $$  \__/| $$  /$$$$$$  /$$   /$$  /$$$$$$$  /$$$$$$$| $$    /$$    /$$ /$$$$$$  /$$$$$$$  /$$$$$$   /$$$$$$$
+#  | $$      | $$ /$$__  $$| $$  | $$ /$$__  $$ /$$_____/| $$$$$|  $$  /$$//$$__  $$| $$__  $$|_  $$_/  /$$_____/
+#  | $$      | $$| $$  \ $$| $$  | $$| $$  | $$|  $$$$$$ | $$__/ \  $$/$$/| $$$$$$$$| $$  \ $$  | $$   |  $$$$$$
+#  | $$    $$| $$| $$  | $$| $$  | $$| $$  | $$ \____  $$| $$     \  $$$/ | $$_____/| $$  | $$  | $$ /$$\____  $$
+#  |  $$$$$$/| $$|  $$$$$$/|  $$$$$$/|  $$$$$$$ /$$$$$$$/| $$$$$$$$\  $/  |  $$$$$$$| $$  | $$  |  $$$$//$$$$$$$/
+#   \______/ |__/ \______/  \______/  \_______/|_______/ |________/ \_/    \_______/|__/  |__/   \___/ |_______/
+
+# CloudsEvents Messages File
+
+# The main prefix of the plugin, most of the messages will start with this prefix (leave a blank space at the end!).
+prefix: "&5&lClouds&d&lEvents &7» "
+# The colors of the help command.
+main-command-primary-color: "&5"
+main-command-secondary-color: "&d"
+
+# The message that appears when the command executor doesn't have the permission to execute it
+# - %prefix% for the plugin prefix, don't leave a space after it.
+not-permission-command: "%prefix%&cYou don't have the permission to execute this command!"
+# The message that appears when someone makes a mistake in a command (%usage% for the correct usage).
+incorrect-usage: "&cIncorrect usage: %usage%"
+# Config files reload successful message.
+reload-message: "&fFiles &asuccessfully &freloaded!"
+# The message that appears when the console tries to execute an only-player command.
+no-console: "&cThis command is available only for players!"
+# The message that appears in every command where there's a player to insert, if that player never joined this message gets sent.
+# - %player% for the inserted player name.
+not-existent-player: "&cCan't find any player called %player%, please check if it has joined atleast once."
+
+# The message that appears when someone tries to start a map with an invalid event type.
+incorrect-event-type: "&cThe current event type set for this map is invalid!"
+# The message that appears when someone tries to start a non-existent map.
+map-doesnt-exists-start: "&cThe map you're trying to start doesn't exists!"
+# The message that appears when someone tries to stop a non-existent map.
+map-doesnt-exists-stop: "&cThe map you're trying to stop doesn't exists!"
+# The message that appears when someone tries to join a non-existent map.
+map-doesnt-exists-join: "&cThe map you're trying to join doesn't exists!"
+# The message that appears when someone tries to start a non-set up map.
+map-is-not-setup-start: "&cThe map you're trying to start is not set up, generating default config..."
+# The message that appears when someone tries to start a map with an outdated map config.
+mapconfig-outdated: "&cThe mapconfig.yml of the map you're trying to start is outdated, please backup and delete it, wait for it to recreate the default one and add to your mapconfig.yml the changes."
+# The message that appears when the map config is not correctly configured.
+error-in-the-mapconfig: "&cThe mapconfig.yml is not correctly configured, please check the console for more details!"
+# The message that appears when someone tries to stop a non-started map.
+map-is-not-started: "&cThe map you're trying to stop is not started!"
+# The message that appears when someone tries to host an event but there isn't any available map.
+no-maps-available: "&cThere isn't a map available right now, please try again later."
+# The message that appears when someone tries to load a world in a newer version.
+# - %worldversion% for the world version;
+# - %serverversion% for the server version.
+new-world: "&cThe world you're trying to load is saved in a newer version (%worldversion%), please downgrade it to the server version (%serverversion%)."
+
+# The message that appears to everyone when someone starts an event:
+# - %prefix% for the plugin prefix, don't leave a space after it;
+# - %player% for the player that started the event;
+# - %event% for the event type.
+event-started: "%prefix%&5%player% &fstarted a &d%event% &fevent!"
+# The "Click here" message that appears when hovering the mouse on the precedent message.
+event-started-click-message: "&5&lClick here to join!"
+# The message that appears when someone tries to join a full event.
+full-event: "&cThe event you're trying to join reached it's maximum player count."
+# The message that appears when someone tries to join a new event in an event.
+already-in-event: "&cYou can't join an event while you're already in one!"
+# The message that appears when someone tries to join an event that already started.
+already-started: "&cYou can't join an event that already started!"
+# The message that appears when someone tries to do something without being in an event.
+not-in-an-event: "&cYou are not in an event!"
+# The message that appears when someone clicks the quit item.
+## - %delay% for the click delay.
+quit-click: "&fYou will be teleported in &d%delay% &fseconds."
+# The message that appears when someone re-clicks the quit item.
+quit-cancelled: "&fYou &dcancelled &fyour quit."
+# The message that appears when the event's start is cancelled for the minimum players.
+start-cancelled: "&cThe event is not starting anymore since there are not enough players!"
+# The message that appears when someone leave an event.
+# - %player% for the player that started the event;
+# - %event% for the event type.
+event-left: "&fYou left the &d%event% &fhosted by &5%player%&f!"
+# The message that appears when the host leave an event.
+# - %player% for the player that started the event.
+host-event-left: "&5%player% &fleft the event, event cancelled!"
+# The message that appears when there are enough players to start the event.
+# - %event% for the event type;
+# - %time% for the start time.
+event-start-in: "&5%event% &fstarting in &d%time% seconds&f."
+# The title that appears when the event starts (leave empty for no title).
+event-started-title: "&5GO!"
+# The message that appears when the pvp gets enabled.
+event-pvp-enabled: "&dThe PVP is now enabled!"
+# The title that appears when the players die.
+you-died: "&cYou Died!"
+# The title that appears when the players win.
+win: "&6&lVictory!"
+# The title that appears to the other players when someone wins.
+game-over: "&c&lGame Over!"
+game-over-subtitle: "&5%player% &dwon&f!"
+# The message that appears when a player dies in the void.
+# - %player% for the player that died.
+player-void: "&5%player% &ffell in the &dvoid&f!"
+# The message that appears when a player leaves the already-started event.
+# - %player% for the player that left the event.
+player-quit: "&5%player% &fleft the &devent&f!"
+# The message that appears when the event finishes.
+thanks-for-participating: "&d&lCongratulations&f, and thank you for participating in this &5event&f!"
+# The event's finish top first part.
+# - %number% for the players' quantity.
+top-start: "&dTop %number% &fof this &devent&f:"
+# The event's finish top template.
+# - %position% for the player's position;
+# - %player% for the player's name.
+top-template: "  %position% &f• &d%player%"
+# The position colors for the event's finish top (default for every other one).
+top-number's-colors:
+  1: "&e&l"
+  2: "&7&l"
+  3: "&6&l"
+  default: "&5"
+# The /host GUI name
+host-gui-name: "&d&lCloudsEvents • Host GUI"
+
+# Don't change this or the plugin won't work correctly!
+messages-version: 7.0

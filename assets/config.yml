@@ -1,0 +1,62 @@
+#    /$$$$$$  /$$                           /$$           /$$$$$$$$                              /$$
+#   /$$__  $$| $$                          | $$          | $$_____/                             | $$
+#  | $$  \__/| $$  /$$$$$$  /$$   /$$  /$$$$$$$  /$$$$$$$| $$    /$$    /$$ /$$$$$$  /$$$$$$$  /$$$$$$   /$$$$$$$
+#  | $$      | $$ /$$__  $$| $$  | $$ /$$__  $$ /$$_____/| $$$$$|  $$  /$$//$$__  $$| $$__  $$|_  $$_/  /$$_____/
+#  | $$      | $$| $$  \ $$| $$  | $$| $$  | $$|  $$$$$$ | $$__/ \  $$/$$/| $$$$$$$$| $$  \ $$  | $$   |  $$$$$$
+#  | $$    $$| $$| $$  | $$| $$  | $$| $$  | $$ \____  $$| $$     \  $$$/ | $$_____/| $$  | $$  | $$ /$$\____  $$
+#  |  $$$$$$/| $$|  $$$$$$/|  $$$$$$/|  $$$$$$$ /$$$$$$$/| $$$$$$$$\  $/  |  $$$$$$$| $$  | $$  |  $$$$//$$$$$$$/
+#   \______/ |__/ \______/  \______/  \_______/|_______/ |________/ \_/    \_______/|__/  |__/   \___/ |_______/
+
+# CloudsEvents Config File
+
+# Put here your license!
+license: ""
+# The server name for better proxy distinction.
+server-name: ""
+
+# Database Section
+## Available Types: H2, MySQL (Recommended)
+database-type: "H2"
+## MySQL Section
+mysql-host: "127.0.0.1:3306"
+mysql-database-name: "CloudsEvents"
+mysql-username: "root"
+mysql-password: ""
+
+# If this set to true, every player that has the permission "cloudsevents.updatealerts", on joining will receive an alert about a new update.
+update-alerts: true
+
+# If this is set to true, in the help message, for every command that needs a permission, it will be displayed.
+help-commands-permissions: true
+
+# If this is set to true every event has its exclusive chat, NOTE: this can break some chat cooldowns plugins.
+world-exclusive-chat: false
+# The message format for the exclusive chat.
+# - %prefix% for the player prefix (LuckPerms | has a space at the end);
+# - %player% for the player name;
+# - %message% for the message.
+chat-format: "%prefix%&f%player% &7» &f%message%"
+
+# The maximum players quantity to appear in the top at the end of every event.
+max-top-players: 5
+
+# Items
+## For materials use the latest Material API
+items:
+  quit-event:
+    material: "COMPASS"
+    name: "&7&o(( &5Quit Event &7&o))"
+    # In seconds
+    delay: 3
+  snowball-colorparty:
+    material: "SNOWBALL"
+    name: "&dSnowball"
+    amount: 1
+
+# Events section: [map name: event type]. Available event types: Color Party, Sumo FFA, Timer Spleef.
+events:
+  cp_1: "Color Party"
+
+
+# Don't change this or the plugin won't work correctly!
+config-version: 2

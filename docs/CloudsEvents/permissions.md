@@ -12,3 +12,4 @@ In this section there are all the <b>CloudsEvents</b> permissions.
 | stop    | `cloudsevents.command.stop`   | Allows access to `/cloudsevents stop`                |
 | host    | `cloudsevents.command.host`   | Allows access to `/host`                             |
 |         | `cloudsevents.updatealerts`   | Allows access to see the plugin <i>update alerts</i> |
+|         | `cloudsevents.setupmaps`      | Allows access to the <i>assisted setup</i>           |

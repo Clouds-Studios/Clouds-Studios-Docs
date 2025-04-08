@@ -26,7 +26,7 @@ reload-message: "&fFiles &asuccessfully &freloaded!"
 no-console: "&cThis command is available only for players!"
 # The message that appears in every command where there's a player to insert, if that player never joined this message gets sent.
 # - %player% for the inserted player name.
-not-existent-player: "&cCan't find any player called %player%, please check if it has joined atleast once."
+not-existent-player: "&cCan't find any player named %player%. Please check if they have joined at least once."
 
 # The message that appears when someone tries to start a map with an invalid event type.
 incorrect-event-type: "&cThe current event type set for this map is invalid!"
@@ -37,9 +37,11 @@ map-doesnt-exists-stop: "&cThe map you're trying to stop doesn't exists!"
 # The message that appears when someone tries to join a non-existent map.
 map-doesnt-exists-join: "&cThe map you're trying to join doesn't exists!"
 # The message that appears when someone tries to start a non-set up map.
-map-is-not-setup-start: "&cThe map you're trying to start is not set up, generating default config..."
+map-is-not-setup-start: "&fThe map you're trying to start is not set up, entering setup..."
+# The message that appears when someone tries to set up a map from the console.
+cant-setup-console: "&cYou can't use the console to setup a map!"
 # The message that appears when someone tries to start a map with an outdated map config.
-mapconfig-outdated: "&cThe mapconfig.yml of the map you're trying to start is outdated, please backup and delete it, wait for it to recreate the default one and add to your mapconfig.yml the changes."
+mapconfig-outdated: "&cThe mapconfig.yml of the map you're trying to start is outdated. Please back it up, delete it, wait for the default one to be recreated, and then add any changes to your new mapconfig.yml."
 # The message that appears when the map config is not correctly configured.
 error-in-the-mapconfig: "&cThe mapconfig.yml is not correctly configured, please check the console for more details!"
 # The message that appears when someone tries to stop a non-started map.
@@ -72,7 +74,7 @@ quit-click: "&fYou will be teleported in &d%delay% &fseconds."
 # The message that appears when someone re-clicks the quit item.
 quit-cancelled: "&fYou &dcancelled &fyour quit."
 # The message that appears when the event's start is cancelled for the minimum players.
-start-cancelled: "&cThe event is not starting anymore since there are not enough players!"
+start-cancelled: "&cThe event is no longer starting because there are not enough players!"
 # The message that appears when someone leave an event.
 # - %player% for the player that started the event;
 # - %event% for the event type.
@@ -116,8 +118,38 @@ top-number's-colors:
   2: "&7&l"
   3: "&6&l"
   default: "&5"
-# The /host GUI name
+# The /host GUI name.
 host-gui-name: "&d&lCloudsEvents • Host GUI"
+# The Color Party block selection GUI name.
+color-party-block-gui-name: "&d&lCloudsEvents • Block GUI"
+# The Color Party PvP type selection GUI name.
+color-party-pvp-type-gui-name: "&d&lCloudsEvents • PvP Type GUI"
+
+# Setup section.
+setup:
+  # The welcome and goodbye messages, divide wih ;; the title from the subtitle.
+  welcome: "&f&lWelcome!;;&fTo the &5&lClouds&d&lEvents &fsetup!"
+  goodbye: "&f&lThank You!;;&fAnd goodbye!"
+  # Section limits messages.
+  no-back: "&cYou can't go back because this is the first section of the setup!"
+  no-next: "&cYou can't proceed because this is the last section of the setup!"
+  # Errors
+  int: "&cPlease type the required number after the 2."
+  # All the mapConfig messages
+  spawn-location: "&fSet the location where players will spawn when they join an event."
+  spawn-cage: "&fSet the cage area using the provided items."
+  max-players: "&fSet the maximum number of players that can join the event. &o(%number%)"
+  min-players: "&fSet the minimum number of players to start the event. &o(%number%)"
+  start-time: "&fSet the seconds needed to start the event. &o(%number%)"
+  game-spawn-location: "&fSet the location where players will spawn when starting an event."
+  y-death: "&fSet the death height. &o(%number%)"
+  game-base: "&fSet the game base area with the provided items."
+  color-block: "&fSet the game base block type from the GUI."
+  pvp-level: "&fSet the round in which the PvP will be enabled. &o(-1 to disable it) &o(%number%)"
+  pvp-type: "&fSet the PvP gamemodes from the GUI."
+  snowball-hotbar: "&fSet the hotbar number in which the snowballs will be given. &o(Ignore if disabled) &o(%number%)"
+  level-time: "&fSet the seconds for the block to disappear."
+  advanced: "&fThis section &o(%key%) &fis an advanced-only feature, to set it up do it from the config.yml"
 
 # Don't change this or the plugin won't work correctly!
-messages-version: 7.0
+messages-version: 2.0

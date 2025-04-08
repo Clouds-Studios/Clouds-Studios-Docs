@@ -38,5 +38,5 @@ You can also add some arguments to it as sub-commands:
 <b>Here are other useful commands:<br></b> 
 
 * `/leave` to leave an event you're participating in. <i>[Alias: `/l`]</i>  
-* `/host` to host an event. (For this command there is a <a href="http://100.71.249.28/cloudsevents/gui/#host-gui"> GUI</a>) <i>[Aliases: `/hostevent`, `/eventhost`, `/newevent`, `/mediaevent`, `/media`, `/medias`]</i>  
+* `/host` to host an event. (For this command there is a <a href="../gui"> GUI</a>) <i>[Aliases: `/hostevent`, `/eventhost`, `/newevent`, `/mediaevent`, `/media`, `/medias`]</i>  
 * `/eventsstats [player]` to get the events player statistics. <i>[Aliases: `/statsevents`, `/eventsstatistics`, `/statisticsevents`, `/statsevent`, `/eventstatistics`, `/statisticsevent`, `/eventstats`]</i>

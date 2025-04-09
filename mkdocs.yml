@@ -2,6 +2,7 @@
 # Licensed under the EUPL v. 1.2
 site_name: Clouds Studios
 site_url: https://docs.clouds-studios.com/
+dev_addr: 127.0.0.1:80
 copyright: <a href="https://www.clouds-studios.com"><b>Clouds Studios</b></a> &copy 2025-2025
 
 theme:

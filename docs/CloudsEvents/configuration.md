@@ -12,14 +12,14 @@ Setting up a database is important since it's used for <i>temporary player infor
 
 === "H2"
 
-	1. Set `"H2"` in your `database-type` field in the `config.yml` file.
+	1.  Set `"H2"` in your `database-type` field in the `config.yml` file.
 
 === "MySQL"
 
-	1. Set `"MySQL"` in your `database-type` field in the `config.yml` file.
-	2. Set your `mysql-host` in the `config.yml` file, it's ```IP:PORT``` format.
-	3. Set your `mysql-database-name` in the `config.yml` file, leaving it as default should be good.
-	4. Set your `mysql-username` and `mysql-password` in the `config.yml` file.
+	1.  Set `"MySQL"` in your `database-type` field in the `config.yml` file.
+	2.  Set your `mysql-host` in the `config.yml` file, it's ```IP:PORT``` format.
+	3.  Set your `mysql-database-name` in the `config.yml` file, leaving it as default should be good.
+	4.  Set your `mysql-username` and `mysql-password` in the `config.yml` file.
 
 !!! tip
 

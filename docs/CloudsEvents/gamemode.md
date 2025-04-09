@@ -4,7 +4,14 @@ weight: 5
 
 # Game Modes
 
-In this section, we will explain each game mode available in <b>CloudsEvents</b> and their configuration.  
+In this section, we will explain each game mode available in <b>CloudsEvents</b> and their configuration.
+!!! info "Assisted Setup"
+    The Assisted Setup is a new feature implemented in the plugin that helps configure mini-game maps easily and quickly.
+    To enter the Assisted Setup, you need to use a map that hasn't been configured before. Try starting the event, and you will be teleported to the world of the selected map. (There is also a [GUI](gui.md) related to the Assisted Setup, which is mainly used for the "Color Party" mini-game.)
+??? inline end "Note"
+    You won't be teleported directly to the structure's coordinates. You need to save the coordinates beforehand and put them in the main config file, or you can teleport to them manually.
+    Once you’re at the structure, you can start the map Setup, where each section or step will be explained through the chat.<br>
+
 
 ## General Configuration
 There is a general configuration section for every game mode that must be set up.

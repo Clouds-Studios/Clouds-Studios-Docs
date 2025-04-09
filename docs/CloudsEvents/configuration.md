@@ -4,12 +4,9 @@ weight: 3
 # Configuration
 
 After you've set the basic configuration you may now customize it.
-
-
 ## Setup the Database
 
 Setting up a database is important since it's used for <i>temporary player informations</i> and <i>player statistics</i> storage.
-
 === "H2"
 
 	1.  Set `"H2"` in your `database-type` field in the `config.yml` file.

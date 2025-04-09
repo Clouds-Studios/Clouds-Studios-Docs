@@ -24,3 +24,9 @@ This is the Host GUI.<br>
 
     This is the <b>Select GUI</b>, where you can start a specific event with a random map.<br>
     ![SelectGUI](https://i.imgur.com/7ACtLi8.png)
+
+## Assisted Setup - PvP GUI
+This is the Assisted Setup - PvP GUI.<br>
+![AssistedSetupPvPGUI](https://i.imgur.com/V6HGcYR.png)
+
+In this GUI, you can enable or disable the different <b>types of PvP</b> <i>(Snowball or Hand)</i>. When the item is <i>enchanted</i>, it means that type of PvP is <b>enabled</b>. If the item is <i>not enchanted</i>, it means that type of PvP is <b>disabled</b>.

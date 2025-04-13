@@ -31,7 +31,7 @@ The mini-games in our plugin are:
 - [x] <b>Optimized</b>: <i>Engineered with performance in mind, the plugin is thoroughly optimized to maximize efficiency and accessibility across a wide range of server setups.</i>
 
 ## How is it purchased?
-1. You need to join our [Discord](https://discord.clouds-studios.com)
+1. You need to join our [Discord](https://discord.clouds-studios.com/)
 2. Open a "Purchase Product" ticket, and fill in the required fields. 
 3. Wait for a response, and you'll be able to proceed with the purchase. 
 4. The license can be viewed by using the  `/mylicenses ` command in the appropriate bot commands channel.

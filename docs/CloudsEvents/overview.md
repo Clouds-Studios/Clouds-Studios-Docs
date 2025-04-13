@@ -34,6 +34,6 @@ The mini-games in our plugin are:
 1. You need to join our [Discord](https://discord.clouds-studios.com/)
 2. Open a "Purchase Product" ticket, and fill in the required fields. 
 3. Wait for a response, and you'll be able to proceed with the purchase. 
-4. The license can be viewed by using the  `/mylicenses ` command in the appropriate bot commands channel.
+4. The license can be viewed by using the `/mylicenses ` command in the appropriate bot commands channel.
 
 <b>Please note that by purchasing our products, you accept our Terms of Service.</b>

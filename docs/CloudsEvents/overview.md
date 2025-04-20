@@ -20,6 +20,7 @@ The mini-games in our plugin are:
 * [Color Party](gamemode.md/#color-party)
 * [Sumo FFA](gamemode.md/#sumo-ffa)
 * [Timer Spleef](gamemode.md/#timer-spleef)
+* [Anvil Rain](gamemode.md/#anvil-rain)
 
 ## Why choose CloudsEvents?
 - [x] <b>Wide Compatibility</b>: <i>Supports all Minecraft versions form <b>1.8.x to 1.21.x.</b></i>

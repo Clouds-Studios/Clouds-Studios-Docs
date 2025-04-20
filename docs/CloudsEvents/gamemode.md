@@ -123,7 +123,31 @@ The <b>Timer Spleef</b> game mode consists of multiple platforms where, if a pla
             3: "WOOL:14"  
     ```  
 
-    The seconds between each level.  
+    <i>The seconds between each level.</i>  
     ```yaml title="Seconds"  
             level-time: 5  
     ```
+## Anvil Rain 
+Anvil Rain is a game mode that literally consists of a rain of anvils, gradually increasing in intensity as more and more anvils fall. The winner is the one who manages to survive the longest under this anvil storm
+
+=== "Before the Config"  
+    Before configuring it, a map is required. To build it, you only need a platform made of any block and a spawn cage. The map itself should be surrounded by walls to prevent players from falling off the edge of the world.
+
+    <i>For example:</i><br>
+    ![AnvilRainMap](https://i.imgur.com/iA0xUdw.png){ align=left }
+
+=== "After Building"
+    <i>The two vertices of the game base (X,Y,Z).</i>
+        ```yaml title="Vertices Position"
+                ar-game-base-pos1: "64,64,0"
+                ar-game-base-pos2: "0,64,-69"
+        ```
+    <i>The milliseconds when the first anvil spawns.</i>
+        ```yaml title="Milliseconds"
+                starting-milliseconds: 3000
+        ```
+    <i>The leniency settings for the game mode.</i>
+        ```yaml title="Leniency"
+              time-leniency: 5
+              block-leniency: 3  
+        ```

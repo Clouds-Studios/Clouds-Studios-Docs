@@ -53,7 +53,7 @@ The mini-games in our plugin are:
 ![OptimizedAlgorithm](https://i.imgur.com/Tpt5YA8.gif)
 
 ### Fully customizable.<br>
-![Customizable](https://i.imgur.com/iTwLhki.gif)
+![Customizable](https://i.imgur.com/3HwXqYF.gif)
 
 ### But despite everything, it is extremely optimized!<br>
 ![Lightweight](https://i.imgur.com/DZqbHhq.png)

@@ -41,19 +41,19 @@ The mini-games in our plugin are:
 
 ## Features
 A GUI to make it easy for the Media team to start an event!<br>
-![GUI](https://i.imgur.com/X92QPrV.mp4)
+![GUI](https://i.imgur.com/bFYGdDV.gif)
 
 Useful and easy-to-read statistics<br>
 ![Stats](https://i.imgur.com/jGdL6FH.png)
 
 Easy and quick to set up<br>
-![AssistedSetup](https://i.imgur.com/qMPpGQZ.mp4)
+![AssistedSetup](https://i.imgur.com/qggpJId.gif)
 
 Advanced map generation algorithm<br>
-![OptimizedAlgotirhm](https://i.imgur.com/21uqthG.mp4)
+![OptimizedAlgotirhm](https://i.imgur.com/Kdc5yuI.gif)
 
 Fully customizable<br>
-![Customizable](https://i.imgur.com/lxkQCEU.mp4)
+![Customizable](https://i.imgur.com/XVHTDld.gif)
 
 Extremely lightweight and optimized<br>
 ![Lightweight](https://i.imgur.com/DZqbHhq.png)

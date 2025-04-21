@@ -38,3 +38,22 @@ The mini-games in our plugin are:
 4. The license can be viewed by using the `/mylicenses ` command in the appropriate bot commands channel.
 
 <b>Please note that by purchasing our products, you accept our Terms of Service.</b>
+
+## Features
+A GUI to make it easy for the Media team to start an event!<br>
+![GUI](https://i.imgur.com/X92QPrV.mp4)
+
+Useful and easy-to-read statistics<br>
+![Stats](https://i.imgur.com/jGdL6FH.png)
+
+Easy and quick to set up<br>
+![AssistedSetup](https://i.imgur.com/qMPpGQZ.mp4)
+
+Advanced map generation algorithm<br>
+![OptimizedAlgotirhm](https://i.imgur.com/21uqthG.mp4)
+
+Fully customizable<br>
+![Customizable](https://i.imgur.com/lxkQCEU.mp4)
+
+Extremely lightweight and optimized<br>
+![Lightweight](https://i.imgur.com/DZqbHhq.png)

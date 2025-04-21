@@ -40,20 +40,20 @@ The mini-games in our plugin are:
 <b>Please note that by purchasing our products, you accept our Terms of Service.</b>
 
 ## Features
-A GUI to make it easy for the Media team to start an event!<br>
-![GUI](https://i.imgur.com/bFYGdDV.gif)
+### A GUI to make it easy for the Media team to start an event!<br>
+![GUI](https://i.imgur.com/Cc8xYfJ.gif)
 
-Useful and easy-to-read statistics<br>
+### Useful and easy-to-read statistics<br>
 ![Stats](https://i.imgur.com/jGdL6FH.png)
 
-Easy and quick to set up<br>
+### Easy and quick to set up<br>
 ![AssistedSetup](https://i.imgur.com/qggpJId.gif)
 
-Advanced map generation algorithm<br>
+### Advanced map generation algorithm<br>
 ![OptimizedAlgotirhm](https://i.imgur.com/Kdc5yuI.gif)
 
-Fully customizable<br>
+### Fully customizable<br>
 ![Customizable](https://i.imgur.com/XVHTDld.gif)
 
-Extremely lightweight and optimized<br>
+### Extremely lightweight and optimized<br>
 ![Lightweight](https://i.imgur.com/DZqbHhq.png)

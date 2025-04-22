@@ -44,16 +44,16 @@ The mini-games in our plugin are:
 ![GUI](https://i.imgur.com/Cc8xYfJ.gif)
 
 ### Useful and easy-to-read statistics!<br>
-![Stats](https://i.imgur.com/jGdL6FH.png)
+![Stats](https://i.imgur.com/zoCc4kU.png)
 
 ### Easy and quick to set up!<br>
-![AssistedSetup](https://i.imgur.com/ocYiNm1.gif)
+![AssistedSetup](https://i.imgur.com/VyFvA1O.gif)
 
 ### Advanced map generation algorithm.<br>
-![OptimizedAlgorithm](https://i.imgur.com/Tpt5YA8.gif)
+![OptimizedAlgorithm](https://i.imgur.com/VvaSnUj.gif)
 
 ### Fully customizable.<br>
-![Customizable](https://i.imgur.com/3HwXqYF.gif)
+![Customizable](https://i.imgur.com/vFiLUWX.gif)
 
 ### But despite everything, it is extremely optimized!<br>
-![Lightweight](https://i.imgur.com/DZqbHhq.png)
+![Lightweight](https://i.imgur.com/mWXSgnS.png)

@@ -1,0 +1,73 @@
+#    /$$$$$$  /$$                           /$$           /$$$$$$$$                              /$$
+#   /$$__  $$| $$                          | $$          | $$_____/                             | $$
+#  | $$  \__/| $$  /$$$$$$  /$$   /$$  /$$$$$$$  /$$$$$$$| $$    /$$    /$$ /$$$$$$  /$$$$$$$  /$$$$$$   /$$$$$$$
+#  | $$      | $$ /$$__  $$| $$  | $$ /$$__  $$ /$$_____/| $$$$$|  $$  /$$//$$__  $$| $$__  $$|_  $$_/  /$$_____/
+#  | $$      | $$| $$  \ $$| $$  | $$| $$  | $$|  $$$$$$ | $$__/ \  $$/$$/| $$$$$$$$| $$  \ $$  | $$   |  $$$$$$
+#  | $$    $$| $$| $$  | $$| $$  | $$| $$  | $$ \____  $$| $$     \  $$$/ | $$_____/| $$  | $$  | $$ /$$\____  $$
+#  |  $$$$$$/| $$|  $$$$$$/|  $$$$$$/|  $$$$$$$ /$$$$$$$/| $$$$$$$$\  $/  |  $$$$$$$| $$  | $$  |  $$$$//$$$$$$$/
+#   \______/ |__/ \______/  \______/  \_______/|_______/ |________/ \_/    \_______/|__/  |__/   \___/ |_______/
+
+# CloudsEvents Config File
+
+# Put here your license!
+license: ""
+# The server name for better proxy distinction.
+server-name: ""
+
+# Database Section
+## Available Types: H2, MySQL (Recommended)
+database-type: "H2"
+## MySQL Section
+mysql-host: "127.0.0.1:3306"
+mysql-database-name: "CloudsEvents"
+mysql-username: "root"
+mysql-password: ""
+
+# If this is set to true, every player with the permission "cloudsevents.updatealerts" will receive an alert about a new update upon joining.
+update-alerts: true
+
+# If this is set to true, the help message will display the required permission for every command that needs one.
+help-commands-permissions: true
+
+# Setup section.
+setup:
+  # The location where players will spawn when setting up an event (X,Y,Z,Yaw,Pitch).
+  default_spawn_location: "0.5,60,0.5,0,0"
+
+# If this is set to true, each event will have its exclusive chat. NOTE: This may interfere with some chat cooldown plugins.
+world-exclusive-chat: false
+# The message format for the exclusive chat.
+# - %prefix% for the player prefix (LuckPerms | includes a space at the end);
+# - %player% for the player name;
+# - %message% for the message.
+chat-format: "%prefix%&f%player% &7» &f%message%"
+
+# The maximum number of players to appear in the leaderboard at the end of each event.
+max-top-players: 5
+
+# Items
+## For materials use the latest Material API
+items:
+  quit-event:
+    material: "COMPASS"
+    name: "&7&o(( &5Quit Event &7&o))"
+    # In seconds
+    delay: 3
+  snowball-colorparty:
+    material: "SNOWBALL"
+    name: "&dSnowball"
+    amount: 1
+  setup-pos1:
+    material: "DIAMOND_PICKAXE"
+    name: "&5Position 1"
+  setup-pos2:
+    material: "DIAMOND_AXE"
+    name: "&dPosition 2"
+
+# Events section: [map name: event type]. Available event types: Color Party, Sumo FFA, Timer Spleef.
+events:
+  cp_1: "Color Party"
+
+
+# Don't change this or the plugin won't work correctly!
+config-version: 2
